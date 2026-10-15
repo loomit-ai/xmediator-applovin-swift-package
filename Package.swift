@@ -26,8 +26,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "XMediatorAppLovin",
-            url: "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorAppLovin/XMediatorAppLovin-13.6.4.1.zip",
-            checksum: "07dd9fdaade02ca537d299d7a67a534a4ad8a8c135ca2739668ebd77e96cce5b"
+            url: "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorAppLovin/XMediatorAppLovin-13.6.4.2.zip",
+            checksum: "1bb02809a7699b4436287c9baefb01a2582c979f417a29edc0d56f8c9e56b325"
         ),
     ]
 )
