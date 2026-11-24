@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "XMediatorAppLovin", targets: ["XMediatorAppLovinTarget"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", exact: "13.7.0"),
+        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", exact: "13.5.0"),
         .package(url: "https://github.com/x3mads/xmediator-swift-package.git", .upToNextMajor(from: "1.167.0")),
     ],
     targets: [
@@ -26,8 +26,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "XMediatorAppLovin",
-            url: "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorAppLovin/XMediatorAppLovin-13.7.0.1.zip",
-            checksum: "ecd23f3e55f3e816971624adb0665cd0ce27592162f4e87e9906681040aa5d6b"
+            url: "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorAppLovin/XMediatorAppLovin-13.5.0.5.zip",
+            checksum: "aabedfd0f8225258715ff67bde240c35c90a6a739ffed1d5ecf789a583557c55"
         ),
     ]
 )
